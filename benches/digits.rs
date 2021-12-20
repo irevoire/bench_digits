@@ -4,7 +4,7 @@ use criterion::{criterion_group, criterion_main, BenchmarkId, Criterion};
 fn bench_digits(c: &mut Criterion) {
     let mut group = c.benchmark_group("Digits");
     for i in [
-        0usize,
+        0u32,
         100,
         1000,
         4000,
@@ -12,7 +12,7 @@ fn bench_digits(c: &mut Criterion) {
         50_000,
         100_000,
         500_000,
-        usize::MAX,
+        u32::MAX,
     ]
     .iter()
     {

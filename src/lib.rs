@@ -1,19 +1,19 @@
 #![feature(int_log)]
 
-pub fn log10(i: usize) -> usize {
-    ((i + 1) as f64).log10().ceil() as usize
+pub fn log10(i: u32) -> u32 {
+    ((i + 1) as f64).log10().ceil() as u32
 }
 
-pub fn divide_loop(n: usize) -> usize {
+pub fn divide_loop(n: u32) -> u32 {
     std::iter::successors(Some(n), |n| {
         let n = n / 10;
         (n != 0).then(|| n)
     })
-    .count()
+    .count() as u32
 }
 
-pub fn kendal_willets(n: usize) -> usize {
-    const LOOKUP: [u128; 6 * 5 + 2] = [
+pub fn kendal_willets(n: u32) -> u32 {
+    const LOOKUP: [u64; 6 * 5 + 2] = [
         4294967296,
         8589934582,
         8589934582,
@@ -47,6 +47,6 @@ pub fn kendal_willets(n: usize) -> usize {
         42949672960,
         42949672960,
     ];
-    let n = n as u128;
-    return ((n + LOOKUP[n.log2() as usize]) >> 32) as usize;
+    let n = n as u64;
+    return ((n + LOOKUP[n.log2() as usize]) >> 32) as u32;
 }

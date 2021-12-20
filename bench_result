@@ -1,0 +1,35 @@
+Digits/log10/0             time:   [6.7334 ns 6.7396 ns 6.7468 ns]                            
+Digits/divide/0            time:   [1.3381 ns 1.3390 ns 1.3405 ns]                             
+Digits/kendal willets/0    time:   [1.2568 ns 1.2581 ns 1.2594 ns]                                     
+
+igits/log10/100            time:   [7.4187 ns 7.4613 ns 7.5056 ns]                              
+Digits/divide/100          time:   [1.6891 ns 1.6919 ns 1.6955 ns]                               
+Digits/kendal willets/100  time:   [1.5636 ns 1.5650 ns 1.5666 ns]
+
+Digits/log10/1000          time:   [7.8251 ns 7.8516 ns 7.8802 ns]                               
+igits/divide/1000          time:   [2.4880 ns 2.5445 ns 2.5880 ns]                                
+Digits/kendal willets/1000 time:   [1.9900 ns 1.9915 ns 1.9931 ns]
+
+Digits/log10/4000           time:   [7.4808 ns 7.4927 ns 7.5066 ns]                               
+Digits/divide/4000          time:   [1.9760 ns 1.9780 ns 1.9804 ns]                                
+Digits/kendal willets/4000  time:   [1.5226 ns 1.5258 ns 1.5282 ns]                                                                           
+                           
+Digits/log10/10000          time:   [7.8139 ns 7.8736 ns 7.9229 ns]                                
+Digits/divide/10000         time:   [2.2120 ns 2.2337 ns 2.2638 ns]                                 
+Digits/kendal willets/10000 time:   [1.4771 ns 1.4778 ns 1.4786 ns]                                                                            
+                           
+Digits/log10/50000          time:   [7.3935 ns 7.3969 ns 7.4006 ns]                                
+Digits/divide/50000         time:   [2.1114 ns 2.1144 ns 2.1180 ns]                                 
+Digits/kendal willets/50000 time:   [1.5021 ns 1.5056 ns 1.5101 ns]                                                                           
+                             
+Digits/log10/100000          time:   [7.4305 ns 7.4345 ns 7.4392 ns]                                 
+Digits/divide/100000         time:   [2.3390 ns 2.3493 ns 2.3611 ns]                                  
+Digits/kendal willets/100000 time:   [1.6593 ns 1.7218 ns 1.7763 ns]
+
+Digits/log10/500000           time:   [7.9136 ns 7.9348 ns 7.9591 ns]                                 
+Digits/divide/500000          time:   [2.4251 ns 2.4363 ns 2.4510 ns]                                  
+Digits/kendal willets/500000  time:   [1.5320 ns 1.5340 ns 1.5362 ns]                                                                           
+
+Digits/log10/4294967295          time:   [8.9186 ns 8.9282 ns 8.9381 ns]                                     
+Digits/divide/4294967295         time:   [3.8880 ns 3.8933 ns 3.9006 ns]
+Digits/kendal willets/4294967295 time:   [1.5211 ns 1.5248 ns 1.5294 ns]
